@@ -1,0 +1,608 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+
+}
+
+::-webkit-scrollbar-thumb {
+
+    background: #64FFDA;
+    border-radius: 6px;
+}
+
+
+
+/*-----------------------------------------------------navbar ------------------------------------------------- */
+
+
+.container-fluid a {
+    color: #64FFDA;
+    padding: 6px;
+    font-weight: bold;
+}
+
+.container-fluid a b {
+    color: #CCD6F6;
+}
+
+.list {
+    margin-left: auto;
+    transition: 0.5s;
+
+}
+
+.container-fluid .navbar-toggler-icon {
+
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28100, 255, 218, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+
+}
+
+
+.lio {
+    color: #64FFDA;
+}
+
+.list a {
+    border-radius: 6px;
+    transition: .2s linear;
+    margin: 0px 4px;
+}
+
+
+.list a:hover {
+    color: black;
+    background-color: #64FFDA;
+    box-shadow: 0px 0px 5px #64FFDA;
+
+}
+
+
+
+.navbar-div .navbar {
+    background-color: #0a192fc8;
+}
+
+/* --------------------------------------------------------------------Home-------------------------------------------------------------- */
+
+
+.home button a:hover {
+    background-color: #64FFDA;
+}
+
+
+.home-con {
+    text-align: center;
+    color: #CCD6F6;
+    background-color: #0A192FD9;
+    padding: 100px 0 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home button {
+    background-color: transparent;
+    border: 2px solid #64FFDA;
+    color: #CCD6F6;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 6px 15px;
+    border-radius: 30px;
+    transition: 0.2s linear;
+}
+
+.home button:hover {
+    box-shadow: 0px 0px 10px rgba(245, 245, 245, 0.322);
+    background-color: #64FFDA;
+    color: black;
+}
+
+.home-con img {
+    padding: 20px;
+    padding-top: 0;
+
+
+}
+
+
+.home {
+    padding: 20px;
+    padding-top: 50px;
+    padding-right: 40px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.home p {
+    margin-bottom: -5px;
+    font-size: 1.4em;
+}
+
+.home h1 {
+    font-size: 2.5em;
+}
+
+.home h4 {
+    margin-top: -8px;
+}
+
+/*-------------------------------------------------------------------------about me------------------------------------------------------------- */
+
+.about-me {
+    background-color: #0A192FD9;
+    margin-top: 2px;
+    color: #CCD6F6;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about-me .headings {
+    padding-bottom: 10px;
+    padding-left: 80px;
+}
+
+.about-me h2 {
+    text-align: center;
+    color: #CCD6F6;
+    font-size: 30px;
+    font-weight: bold;
+    width: 155px;
+    border-bottom: 2px solid #64FFDA;
+}
+
+.about-me .bio {
+    padding: 10px 100px;
+    text-align: justify;
+}
+
+.about-me p {
+
+    font-size: large;
+
+}
+
+
+/* ----------------------------------------------------------------skill-------------------------------------------------------------- */
+
+.skills {
+    background-color: #0A192FD9;
+    margin-top: 2px;
+    color: #CCD6F6;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+
+.skills .headings {
+    padding-bottom: 10px;
+    padding-left: 80px;
+}
+
+.skills h2 {
+    text-align: center;
+    color: #CCD6F6;
+    font-size: 30px;
+    font-weight: bold;
+    width: 275px;
+    border-bottom: 2px solid #64FFDA;
+}
+
+.skills p {
+    font-size: large;
+}
+
+.skill-item img {
+    width: 90px;
+    margin: auto;
+}
+
+.skill-item {
+    padding-top: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+    text-align: center;
+}
+
+.col .card {
+    background-color: #0A192FD9;
+    box-shadow: rgba(255, 255, 255, 0.12) 0px 1px 3px, rgba(255, 255, 255, 0.24) 0px 1px 2px;
+}
+
+.skill-item:hover {
+    box-shadow: 1px 1px 8px #64FFDA;
+    transform: scale(1.04);
+}
+
+.java img {
+    width: 89px;
+}
+
+.boot img {
+    width: 110px;
+}
+
+.jquery img{
+    background-color: white;
+}
+
+.skill-item h5 {
+    color: #CCD6F6;
+    font-size: 24px;
+}
+
+.skill-div .col {
+    width: 250px;
+    transition: 0.3s;
+}
+
+.skill-div {
+    justify-content: center;
+    padding: 10px 100px;
+}
+
+/* -------------------------------------------------------------project-------------------------------------------------------------------- */
+
+.project {
+    background-color: #0A192FD9;
+    margin-top: 2px;
+    color: #CCD6F6;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+
+}
+
+.project .headings {
+    padding-bottom: 10px;
+    padding-left: 80px;
+}
+
+.project h2 {
+    text-align: center;
+    color: #CCD6F6;
+    font-size: 30px;
+    font-weight: bold;
+    width: 130px;
+    border-bottom: 2px solid #64FFDA;
+}
+
+.project .col {
+    width: 450px;
+    transition: 0.3s;
+    
+}
+
+.project .row {
+    justify-content: center;
+    padding: 10px 100px;
+}
+
+.project a {
+    text-decoration: none;
+    color: #CCD6F6;
+    transition: .2s linear;
+}
+
+.project a:hover {
+    color: #64FFDA;
+}
+
+/* ---------------------------------------------------------------contact me---------------------------------------------------------------------- */
+.contact-me {
+    padding-top: 100px;
+    text-align: center;
+    font-family: century;
+    /* border: 1px solid #CCD6F6; */
+    margin-top: 2px;
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+    background-color: #0A192FD9;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+}
+
+.contact-me i {
+    font-size: 20px;
+    padding: 10px 10px;
+    padding-top: 15px;
+    background-color: #0A192FD9;
+    color: #CCD6F6;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    border-radius: 50%;
+    transition: 0.3s;
+    margin-top: 10px;
+    box-shadow: rgba(255, 255, 255, 0.12) 0px 1px 3px, rgba(255, 255, 255, 0.24) 0px 1px 2px;
+}
+
+.contact-me i:hover {
+    color: black;
+    background-color: #64FFDA;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #64FFDA;
+}
+
+.contact-me .headings {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.contact-me h2 {
+    text-align: center;
+    color: #CCD6F6;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: century;
+    width: 220px;
+    border-bottom: 2px solid #64FFDA;
+}
+
+.contact-me .contact-item {
+    background-color: black;
+}
+
+.contact-me .form-detail {
+    text-align: left;
+}
+
+.contact-me .form .text {
+    color: #CCD6F6;
+}
+
+.contact-me .form-detail button {
+    border: 2px solid #64FFDA;
+    color: #CCD6F6;
+    background-color: transparent;
+    padding: 6px 15px;
+    border-radius: 30px;
+    transition: 0.5s ease;
+
+}
+
+.form-detail button:hover {
+    background-color: #64FFDA;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0px 0px 5px #64FFDA;
+}
+
+.form-detail {
+    padding: 50px 0px;
+}
+
+.footer {
+    color: #CCD6F6;
+    text-align: center;
+}
+
+/*-------------------------------------------------------- media query -----------------------------------------------*/
+
+@media screen and (max-width:800px) {
+       /* --------------navbar------------- */
+
+       .list {
+        margin-left: auto;
+    }
+
+    .list a{
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width:900px) {
+       /* --------------navbar------------- */
+
+       .list {
+        margin-left: auto;
+    }
+
+    .list a{
+        text-align: center;
+    }
+    
+}
+@media screen and (max-width:600px) {
+
+
+    /*-------------- home -----------------*/
+    .home p {
+        font-size: .9em;
+    }
+
+    .home button {
+        font-size: 10px;
+        padding: 5px 14px;
+    }
+
+    .home h1 {
+        font-size: 2em;
+    }
+
+    .home-con img {
+        /* border: 1px solid #CCD6F6; */
+        padding: 20px;
+        padding-top: 20px;
+        width: 280px;
+    }
+
+
+    /* ----------------about----------------- */
+
+    .about-me h2 {
+        font-size: 22px;
+        width: 115px;
+    }
+
+    .about-me .headings {
+        padding-left: 18px;
+    }
+
+    .about-me .bio {
+        padding: 10px 28px;
+    }
+
+    .about-me p {
+
+        font-size: small;
+
+    }
+
+    /* -------------------------skills------------- */
+
+    .skills h2 {
+        font-size: 22px;
+        width: 200px;
+    }
+
+    .skills .headings {
+        padding-bottom: 10px;
+        padding-left: 18px;
+    }
+
+    .skills p {
+        font-size: small;
+    }
+
+    .skill-div .col {
+        width: 150px;
+    }
+
+    .skill-item img {
+        width: 70px;
+    }
+
+    .skill-item h5 {
+        font-size: 15px;
+    }
+
+    .java img {
+        width: 56px;
+    }
+
+    .skill-div {
+        padding: 10px 28px;
+    }
+
+    /* ---------------------projects -------------- */
+
+    .project h2 {
+        font-size: 22px;
+        width: 100px;
+    }
+
+    .project .headings {
+        padding-bottom: 10px;
+        padding-left: 18px;
+    }
+
+    .project p {
+        font-size: small;
+    }
+
+    .project .col {
+        width: 400px;
+    }
+
+    .project .row {
+        padding: 10px 28px;
+    }
+
+    /* ---------------------contact me -------------- */
+
+    .contact-me h2 {
+        font-size: 28px;
+        width: 165px;
+    }
+
+    .contact-me i {
+        font-size: 18px;
+        padding: 10px 10px;
+        padding-top: 12px;
+        color: #CCD6F6;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+
+    }
+
+    form {
+        width: 85%;
+        margin: auto;
+    }
+
+    /* ---------------------footer---------------- */
+
+    .footer {
+        font-size: 12px;
+    }
+}
+
+
+
+@media screen and (max-width:360px) {
+    .home p {
+        margin-bottom: -5px;
+        font-size: 1em;
+    }
+    
+    .home button{
+        font-size: 10px;
+    }
+    .home h1 {
+        font-size: 1.7em;
+    }
+    
+    .home h4 {
+        margin-top: -8px;
+        font-size: 1.2em;
+    }
+
+    .home a{
+        font-size: 12px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:280px) {
+    .home p {
+        margin-bottom: -5px;
+        font-size: 0.7em;
+    }
+
+    .home button {
+        font-size: 8px;
+        padding: 4px 12px;
+    }
+    
+    .home h1 {
+        font-size: 1.3em;
+    }
+    
+    .home h4 {
+        margin-top: -8px;
+        font-size: 1em;
+    }
+
+    .home a{
+        font-size: 9px;
+    }
+
+}
